@@ -3,13 +3,14 @@ body {
 }
 
 p {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: hsl(208, 5%, 85%);
-text-align: center;            
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: hsl(208, 5%, 85%);
+   text-align: center;            
 }
+
 #title {
   color:whitesmoke;
-  font-size: 64;
+  font-size: larger;
 }
 a:link {
   color:rgb(47, 233, 233);
