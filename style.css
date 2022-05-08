@@ -1,27 +1,35 @@
 body {
-    background-color:#303443;
+    background:#1f2427;
 }
 
 p {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: hsl(208, 5%, 85%);
-   text-align: center;            
+   font-size: 60px;
+   color: #d7d9db;
+   opacity: 1;
 }
 
-#title {
-  color:whitesmoke;
-  font-size: larger;
-}
-a:link {
-  color:rgb(47, 233, 233);
+/* Defintely use a class like this if the element is reused */
+.center {
+  margin: auto;
 }
 
-a:visited {
-  color:hsl(180, 100%, 30%)
+/* If it's not reused, you can either continue using a class or use an id as follows: */
+#container {
+  display: flex;
+  height: 100vh;
 }
-a:hover {
-  color:hsl(180, 100%, 40%);
-}
-a:active {
-  color:hsl(180, 100%, 35%);
+
+#flashing {
+  animation: 1s infinite alternate ease-in-out flashing;
+} 
+
+
+@keyframes flashing {
+  to {
+    opacity: 0;
+  }
+  from {
+    opacity: 1;
+  }
 }
