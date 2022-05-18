@@ -18,8 +18,7 @@ body {
 
 #flashing {
   animation: 1s infinite alternate ease-in-out flashing;
-} 
-
+}
 
 @keyframes flashing {
   to {
