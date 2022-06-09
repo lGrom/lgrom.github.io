@@ -1,31 +1,14 @@
 body {
   background:#1f2427;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 60px;
   color: #d7d9db;
 }
 
-/* Defintely use a class like this if the element is reused */
-.center {
-  margin: auto;
+h1 {
+  font-size: 64px;
 }
 
-/* If it's not reused, you can either continue using a class or use an id as follows: */
-#container {
-  display: flex;
-  height: 100vh;
-}
-
-#flashing {
-  animation: 1s infinite alternate ease-in-out flashing;
-} 
-
-
-@keyframes flashing {
-  to {
-    opacity: 0;
-  }
-  from {
-    opacity: 1;
-  }
+#websitename {
+  margin: 10vh;
+  text-align: center;
 }
