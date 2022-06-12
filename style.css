@@ -65,5 +65,6 @@ body::-webkit-scrollbar {
 #portfolio {
   color: #5c646d;
   text-align: right;
+  margin-top: 2%;
   margin-right: 10%
 }
