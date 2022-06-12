@@ -1,14 +1,69 @@
+a:link {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cbcbcb;
+  text-decoration: none;
+}
+
+a:active {
+  color: #777777;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0
+}
+
 body {
   background:#1f2427;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #d7d9db;
+
+  /* hide scrollbar in firefox */
+  scrollbar-width: none
 }
 
-h1 {
-  font-size: 64px;
+/* hide scrollbar in chrome, safari, and opera */
+body::-webkit-scrollbar {
+  display: none
+}
+
+.wrapper {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 100%;
+  grid-template-rows: 7% 5fr;
+  grid-template-areas: 
+    "header"
+    "mid"
+}
+
+.header {
+  grid-area: header
+}
+
+.mid {
+  grid-area: mid
 }
 
 #websitename {
-  margin: 10vh;
+  font-size: 64px;
   text-align: center;
+  font-size: var(size)
+}
+
+#portfolio {
+  color: #5c646d;
+  text-align: right;
+  margin-right: 10%
 }
