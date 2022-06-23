@@ -1,3 +1,5 @@
-# igrqm.github.io
+# lgrom.github.io
 
-A work in progress.
+A website used as my portfolio and as a typing practice website
+
+(WIP)
